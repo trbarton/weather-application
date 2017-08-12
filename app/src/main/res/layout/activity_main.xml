@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="#ff1da1ee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.georges.weatherappliction08aug17.MainActivity">
+
+    <TextView
+        android:id="@+id/placeName"
+        android:textColor="#fff"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/windText"
+        android:textColor="#fff"
+        android:text="Wind:"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/windValue"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="normal"
+        android:layout_alignStart="@id/windText"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/windUnit"
+        android:textColor="#fff"
+        android:text="Mph"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_alignStart="@id/windValue"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/windDir"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        android:layout_alignStart="@id/windText"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/windDirUnit"
+        android:textColor="#fff"
+        android:text="\u00B0"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        android:layout_alignStart="@id/windDir"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tempText"
+        android:textColor="#fff"
+        android:text="Temp:"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_alignStart="@id/windText"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tempValue"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="normal"
+        android:layout_alignStart="@id/windValue"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tempUnit"
+        android:textColor="#fff"
+        android:text="\u00B0C"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        android:layout_alignStart="@id/tempValue"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="104dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/latCoord"
+        android:textColor="#208cba"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        android:layout_alignStart="@id/windText"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="560dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/latUnit"
+        android:textColor="#208cba"
+        android:text="\u00B0N"
+        android:textSize="26sp"
+        android:textStyle="normal"
+        android:layout_alignStart="@id/latCoord"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="560dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/lonCoord"
+        android:textColor="#208cba"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        android:layout_alignStart="@id/latUnit"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="560dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/lonUnit"
+        android:textColor="#208cba"
+        android:text="\u00B0E"
+        android:textSize="26sp"
+        android:textStyle="normal"
+        android:layout_alignStart="@id/lonCoord"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="560dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
